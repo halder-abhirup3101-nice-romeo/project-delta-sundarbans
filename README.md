@@ -76,3 +76,30 @@ code/          — all 5 Python scripts in order
 outputs/       — SHAP charts and risk map
 data/          — data download instructions
 requirements.txt — Python libraries needed
+---
+
+## Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Research Paper
+
+The full research paper accompanying this project:  
+**"Post-Cyclone Displacement Spike Prediction in the Indian 
+Sundarbans: A Block-Level Machine Learning Framework for 
+Anticipatory Displacement Intelligence"**
+
+Available on request.
+
+---
+
+## Citation
+
+If you use this code or methodology please cite:
+
+Halder, A. (2026). Post-Cyclone Displacement Spike Prediction 
+in the Indian Sundarbans. Independent Research, Kolkata, India.
