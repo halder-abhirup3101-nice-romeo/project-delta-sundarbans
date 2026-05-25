@@ -70,3 +70,16 @@ See `data/README_data.md` for download instructions.
 ---
 
 ## Project Structure
+
+Run the pipeline in order:
+
+```bash
+python code/01_preprocess.py    # Load and merge raw data
+python code/02_features.py      # Feature engineering  
+python code/03_train.py         # Train XGBoost model
+python code/04_shap.py          # SHAP interpretability analysis
+python code/05_map.py           # Generate displacement risk map
+```
+
+Each script is fully documented internally.
+See `/code/` folder for complete source.
