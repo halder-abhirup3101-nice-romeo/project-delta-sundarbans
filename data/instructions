@@ -1,0 +1,32 @@
+# Data Download Instructions
+
+This project uses 6 open-access datasets.
+Raw data files are not included in this repository 
+due to file size. Download them from the sources below.
+
+## 1. IBTrACS Cyclone Data
+- URL: https://www.ncei.noaa.gov/products/international-best-track-archive
+- File needed: ibtracs.NI.list.v04r00.csv
+- Place in: data/raw/
+
+## 2. ERA5 Rainfall
+- URL: https://cds.climate.copernicus.eu
+- Variable: total_precipitation
+- Date range: May 2009, May 2020
+- Region: 21-23°N, 88-89°E
+- Place in: data/raw/era5_rainfall.nc
+
+## 3. Census of India 2011
+- URL: https://censusindia.gov.in
+- Tables needed: Primary Census Abstract, block level
+- District: South 24 Parganas
+- Place in: data/raw/census_sundarbans_2011.csv
+
+## 4. Sentinel-1 SAR Flood Maps
+- URL: https://earthengine.google.com
+- Dates: May 2009, May 2020
+- Place in: data/raw/
+
+## 5. IDMC Displacement Data
+- URL: https://www.internal-displacement.org
+- Place in: data/raw/displacement_sundarbans.csv
