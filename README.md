@@ -103,3 +103,5 @@ If you use this code or methodology please cite:
 
 Halder, A. (2026). Post-Cyclone Displacement Spike Prediction 
 in the Indian Sundarbans. Independent Research, Kolkata, India.
+DOI :
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20390841.svg)](https://doi.org/10.5281/zenodo.20390841)
